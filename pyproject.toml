@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-edera"
+version = "0.1.0"
+description = "Bootcamp blockchain training"
+authors = ["UJ Blockchain"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
